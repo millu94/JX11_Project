@@ -16,6 +16,7 @@
 class JX11AudioProcessor  : public juce::AudioProcessor
 {
 public:
+    float noteOnVel;
     //==============================================================================
     JX11AudioProcessor();
     ~JX11AudioProcessor() override;
